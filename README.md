@@ -33,9 +33,9 @@ The started code should feel similar to the State & Events Mini Challenge. We in
 
 Complete these deliverables:
 
-- [ ] When a user types in the search bar, the list of spices displayed should be filtered to match based on the text in the input field and the *notes* property of the spice. For example, if the user types 'warm', the list should show Allspice, Cardamom Pods, and Garam Masala.
-- [ ] When the user clicks the checkbox next to '4 Star Only', the list of spices should be filtered to only display the spices with a *rating* of 4 or higher.
-- [ ] When a user submits the New Spice form, that new spice should be added to the list of spices in our app. Some starter code is already in place, but you will need to find a way to use the `addNewSpice` function from the App component when the NewSpice form submits. You'll also need to make the NewSpice form inputs controlled to keep the form in sync with state.
+<!-- - [ ] When a user types in the search bar, the list of spices displayed should be filtered to match based on the text in the input field and the *notes* property of the spice. For example, if the user types 'warm', the list should show Allspice, Cardamom Pods, and Garam Masala. -->
+<!-- - [ ] When the user clicks the checkbox next to '4 Star Only', the list of spices should be filtered to only display the spices with a *rating* of 4 or higher. -->
+<!-- - [ ] When a user submits the New Spice form, that new spice should be added to the list of spices in our app. Some starter code is already in place, but you will need to find a way to use the `addNewSpice` function from the App component when the NewSpice form submits. You'll also need to make the NewSpice form inputs controlled to keep the form in sync with state. -->
 
 For both these deliverables, you'll need to set state in the `SpiceList` component after an event occurs in the `Filter` component.
 

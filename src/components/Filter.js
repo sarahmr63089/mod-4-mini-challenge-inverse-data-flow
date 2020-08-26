@@ -13,14 +13,14 @@ class Filter extends React.Component {
               type="text"
               placeholder="Search By Tasting Notes..."
               value={this.props.search}
-              onChange={e => console.log(e.target.value) /* TODO: update search state in parent component */}
+              onChange={e => this.props.getSearchTerm(e.target.value)}
             />
           </div>
           <label>
             4 Star Only <input
               type="checkbox"
               value={this.props.fourStarOnly}
-              onChange={e => console.log(e.target.checked) /* TODO: update fourStarOnly state in parent component */}
+              onChange={e => this.props.toggleFilter(e.target.checked)}
             />
           </label>
         </div>
